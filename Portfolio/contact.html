@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cox's Bazar - Travel Portfolio</title>
-    <meta name="description" content="Explore Cox's Bazar through Noshin's travel portfolio.">
+    <title>Contact - Portfolio</title>
+    <meta name="description" content="Get in touch with Noshin.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -15,26 +15,42 @@
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="sylhet.html">Sylhet</a>
-            <a href="cb.html" class="active">Cox's Bazar</a>
-            <a href="contact.html">Contact</a>
+            <a href="cb.html">Cox's Bazar</a>
+            <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
 
     <main>
         <section class="page-banner">
-            <h1>Cox's Bazar</h1>
-            <p>Experience the world's longest natural sea beach</p>
+            <h1>Contact Me</h1>
+            <p>I'd love to hear from you</p>
         </section>
 
-        <section class="travel-content">
-            <div class="card">
-                <img src="images/cb.jpg" alt="Cox's Bazar">
-                <div class="card-body">
-                    <h2>Why I Love Cox's Bazar</h2>
-                    <p>
-                        Cox's Bazar is a beautiful coastal town in Bangladesh, famous for its long sandy beach, which is one of the longest in the world. The town offers stunning views of the Bay of Bengal, and visitors can enjoy activities such as swimming, sunbathing, and exploring the local culture. The natural beauty and serene environment make Cox's Bazar a popular destination for both domestic and international tourists.
-                    </p>
+        <section class="contact-content">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>noshin@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>01723456789</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Bangladesh</p>
+                    </div>
                 </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
             </div>
         </section>
     </main>

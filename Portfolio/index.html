@@ -1,43 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-
+    <title>Noshin's Portfolio</title>
+    <meta name="description" content="Noshin's personal portfolio - CSE student, web developer, and travel enthusiast.">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
     <header>
-    <h2 class="logo">Portfolio</h2>
-    <nav>
-        <a class="active" href="index.html">Home</a>
-        <a href="sylhet.html">Sylhet</a>
-        <a href="cb.html">Cox's Bazar</a>
-    </nav>
-</header>
+        <h2 class="logo">Portfolio</h2>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="sylhet.html">Sylhet</a>
+            <a href="cb.html">Cox's Bazar</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<section class="hero">
-    <div class="hero-text">
-        <h1>Hello, I'm Noshin</h1>
-        <p>
-            I am a CSE student who loves web development, programming and travelling around the world.
-        </p>
-    </div>
-</section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1>Noshin</h1>
+                    <p class="hero-subtitle">CSE Student &amp; Travel Enthusiast</p>
+                    <p class="hero-description">
+                        I am a CSE student who loves web development, programming, and travelling around the world. Welcome to my portfolio!
+                    </p>
+                    <a href="about.html" class="btn">Learn More About Me</a>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar"></div>
+                </div>
+            </div>
+        </section>
 
+        <section class="destinations">
+            <h2 class="section-title">Places I've Visited</h2>
+            <div class="destinations-grid">
+                <a href="sylhet.html" class="card">
+                    <img src="images/sylhet.jpg" alt="Sylhet">
+                    <div class="card-body">
+                        <h2>Sylhet</h2>
+                        <p>Discover the lush tea gardens, waterfalls, and natural beauty of Sylhet, the pearl of Bangladesh.</p>
+                        <span class="card-link">Explore Sylhet →</span>
+                    </div>
+                </a>
+                <a href="cb.html" class="card">
+                    <img src="images/cb.jpg" alt="Cox's Bazar">
+                    <div class="card-body">
+                        <h2>Cox's Bazar</h2>
+                        <p>Experience the world's longest natural sea beach and the serene coastal beauty of the Bay of Bengal.</p>
+                        <span class="card-link">Explore Cox's Bazar →</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>Email : noshin@gmail.com</p>
-    <p>Phone : 01723456789</p>
-    <div>
-     <i class="fa-brands fa-facebook"></i>
-     <i class="fa-brands fa-instagram"></i>
-     <i class="fa-brands fa-github"></i>     
-    </div>
-    <script src="https://kit.fontawesome.com/dd54df8c10.js" crossorigin="anonymous"></script>
-</footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Portfolio</h3>
+                <p>A passionate CSE student sharing travel experiences and web development projects.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> noshin@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 01723456789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Noshin. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
