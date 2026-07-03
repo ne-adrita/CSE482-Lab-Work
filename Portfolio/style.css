@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#1b6988;
+}
+
+.logo{
+    color:rgb(240, 235, 235);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    padding:8px 15px;
+}
+
+nav a:hover{
+    background:white;
+    color:#f1f3f8;
+    border-radius:5px;
+}
+
+.active{
+    background:#eef2ee;
+    color:black;
+    border-radius:5px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100px;
+}
+
+.hero-text{
+    width:400px;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+
+.travel{
+    padding:50px;
+    text-align:center;
+}
+
+.card{
+    width:500px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+} 
+
+footer{
+    background:#1b6988;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+footer a{
+    color:rgb(158, 10, 10);
+    margin:10px;
+    font-size:25px;
+}
