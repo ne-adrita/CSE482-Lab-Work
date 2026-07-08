@@ -1,0 +1,56 @@
+body{
+    background:#f8f5f2;
+    font-family:Arial, sans-serif;
+    }
+    
+    .hero{
+    height:90vh;
+    background:url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200") center/cover;
+    }
+    
+    .hero h1{
+    font-size:60px;
+    font-weight:bold;
+    text-shadow:2px 2px 10px black;
+    }
+    
+    .navbar{
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    }
+    
+    .nav-link:hover{
+    color:#ffc107!important;
+    }
+    
+    .card{
+    border:none;
+    transition:.4s;
+    }
+    
+    .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    }
+    
+    .card img{
+    height:250px;
+    object-fit:cover;
+    }
+    
+    .btn-warning{
+    background:#8B4513;
+    border:none;
+    }
+    
+    .btn-warning:hover{
+    background:#5c3317;
+    }
+    
+    .accordion-button:not(.collapsed){
+    background:#8B4513;
+    color:white;
+    }
+    
+    footer{
+    margin-top:60px;
+    }
