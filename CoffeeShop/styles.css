@@ -1,14 +1,9 @@
-/* ===== styles.css ===== */
-/* Custom CSS for Brew Haven Coffee Shop – Bootstrap 5 + coffee theme */
-
-/* ----- Google Font (Poppins) applied globally ----- */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f8f5f2;
     color: #3e2a1f;
 }
 
-/* ----- coffee/brown colour palette ----- */
 :root {
     --coffee-dark: #3e2a1f;
     --coffee-medium: #6f4e37;
@@ -17,7 +12,6 @@ body {
     --coffee-accent: #b87c4b;
 }
 
-/* ----- typography headings ----- */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: var(--coffee-dark);
