@@ -14,8 +14,12 @@
     border: none;
     padding: 5px;
     display: inline-block;
+    margin-left: 50px;
+    transition: 0.5s ease; /*motion effect*/
 }
 
 .btn-raw:hover{
     background-color: rgb(rgb(134, 13, 13), green, blue);
+    transform: scale(2);
+    box-shadow: 5px 5px 20px rgb(31, 1, 1);
 }
