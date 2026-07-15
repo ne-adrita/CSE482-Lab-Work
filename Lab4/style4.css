@@ -31,11 +31,27 @@
 .container-1{
     height: 100px;
     display: grid;
-    grid-template-columns: 200px 2fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .box-new{
     background-color: rgb(68, 145, 155);
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container-2{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-area: "box1 box2 box2"
+    "box1 box5"
+    ;
+}
+
+.box-new1{
+    background-color: rgb(27, 126, 67);
     margin: 10px;
     color: aliceblue;
     text-align: center;
