@@ -28,3 +28,15 @@
         flex-direction: column;
     }
 }
+.container-1{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 200px 2fr 1fr  ;
+}
+
+.box-new{
+    background-color: rgb(68, 145, 155);
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+}
