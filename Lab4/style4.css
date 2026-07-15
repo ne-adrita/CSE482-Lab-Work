@@ -7,8 +7,16 @@
     text-align: center;
 }
 
+.box-lg{
+    height: 200px;
+    width: 310px;
+    background-color: rgb(48, 76, 141);
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
 .container{
-    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
