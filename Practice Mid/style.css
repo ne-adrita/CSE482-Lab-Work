@@ -6,3 +6,5 @@
 .navbar-brand{
     color: tomato;
 }
+
+@import "tailwindcss";
