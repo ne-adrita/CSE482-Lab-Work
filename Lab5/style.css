@@ -1,6 +1,7 @@
 .box {
-    height: 100px;
-    width: 100px;
+ 
+  height: 100px;
+  width: 100px;
     background-color: tomato;
     position: relative;
     animation: animation 5s ease infinite;
