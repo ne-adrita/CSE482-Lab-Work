@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 const Navbar = () => {
-    return (
+    return ( 
             <div className="navbar bg-base-100 shadow-sm">
   <div className="flex-1">
-    <Link to="/" className="btn btn-ghost btn-sm">
-    Product Inventory
+    <Link to="/" className="btn btn-ghost text-xl btn-sm">
+   Inventory
     </Link>
   </div>
   <div className="flex-none gap-2">
