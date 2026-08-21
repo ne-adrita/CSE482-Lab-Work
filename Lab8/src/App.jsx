@@ -1,22 +1,27 @@
 import React from 'react';
-import Navbar from './src/components/Navbar';
-import Footer from './src/components/footer';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';  
+import Navbar from './components/Navbar';   
+import Footer from './components/Footer';   
+import Home from './pages/Home';            
+import Products from './pages/Products';    
+import EditProducts from './pages/EditProducts';
+import AddProduct from './pages/AddProduct';
+import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Navbar> 
+      <Navbar /> 
       <div className='flex-grow'>
-      <Routes>
-        <Routes path="/" element={<Home />} />
-        <Routes path="/" element={<Products/>} />
-        <Routes path="/" element={<EditProducts/>} />
-        <Routes path="/" element={<AddProducts/>} />
-      </Routes>
-     </div>
-      </Navbar>
-      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product" element={<Products />} />
+          <Route path="/edit-product/:id" element={<EditProducts />} />
+          <Route path="/add-product" element={<AddProduct />} />
+          <Route path="*" element={<NotFound />} />  {/* ✅ 404 পেজ */}
+        </Routes>
+      </div>
+      <Footer />
     </div>
   );
 };
