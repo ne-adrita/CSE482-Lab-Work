@@ -1,12 +1,13 @@
-import React from 'react';
+// src/main.jsx
+import React from 'react';  // ✅ React ইম্পোর্ট করুন
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';  
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>  
+  <React.StrictMode>  {/* ✅ এখন কাজ করবে */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>

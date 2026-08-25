@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';   
 import Home from './pages/Home';            
 import Products from './pages/Products';    
-import EditProducts from './pages/EditProducts';
+import EditProduct from "./pages/EditProduct";
 import AddProduct from './pages/AddProduct';
 import NotFound from './pages/NotFound';
 
@@ -16,9 +16,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Products />} />
-          <Route path="/edit-product/:id" element={<EditProducts />} />
+          <Route path="/edit-product/:id" element={<EditProduct />} />
           <Route path="/add-product" element={<AddProduct />} />
-          <Route path="*" element={<NotFound />} />  {/* ✅ 404 পেজ */}
+          <Route path="*" element={<NotFound />} />  {/* ✅ 404 page */}
         </Routes>
       </div>
       <Footer />
